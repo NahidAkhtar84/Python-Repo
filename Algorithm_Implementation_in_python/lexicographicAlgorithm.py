@@ -17,9 +17,6 @@ DESCRIPTION:
 """
 References:
     algorithm: Lexicographic algorithm
-    source: 
-        1. https://www.quora.com/How-would-you-explain-an-algorithm-that-generates-permutations-using-lexicographic-ordering
-        2. https://codeforces.com/contest/1328/problem/B
 """
 #swaping indexed elements
 def swap(a, i, j):
