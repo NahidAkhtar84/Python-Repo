@@ -19,17 +19,13 @@ print(id(person1))
 print(id(person2))
 print(person1)
 print(person1.job)
+#! sort index added to response
 
 # here the comparison is returning false, where it should return true
 # It is not returning true cz we have not defined where to compare in data.
 # we can do it sort_index variable and post_init method.
-# post_init means, after initialization the values we get.
+# post_init means, after initialization of the values we get.
 print(person1 > person3)
 
-"""
-If we use data class as decorator we get a nice visual of the object
-not a conventional object. 
 
-We do not have to write init method to initialize parameters. 
-"""
 
